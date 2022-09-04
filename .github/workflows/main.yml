@@ -12,6 +12,10 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v3.0.0
+    - name: Cache Docker images
+      uses: ScribeMD/docker-cache@0.2.2
+      with:
+        key: docker-${{ runner.os }}-0.16.1
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.16.1
       env:
