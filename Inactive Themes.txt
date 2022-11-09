@@ -1,0 +1,314 @@
+
+Theme name: Portfolio
+Theme data:
+button_component {
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "filled"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "outlined"
+    }
+  }
+  property_set {
+    key {
+      section_style: REGULAR
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "text"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+      button_style: "outlined"
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+      button_style: "outlined"
+    }
+  }
+}
+divider_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+image_carousel_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+navigation_component {
+  property_set {
+    nav_background_color {
+      red: 1.0
+      green: 1.0
+      blue: 1.0
+      alpha {
+        value: 1.0
+      }
+    }
+    side_selection_style: SIDE_BOLD
+    top_nav_separator: NONE
+    top_selection_style: TOP_BOLD
+    transparent_at_top: true
+  }
+}
+scheme_color_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+    accent1 {
+      red: 0.34117648
+      green: 0.5372549
+      blue: 0.81960785
+      alpha {
+        value: 1.0
+      }
+    }
+    accent2 {
+      red: 0.34117648
+      green: 0.5372549
+      blue: 0.81960785
+      alpha {
+        value: 1.0
+      }
+    }
+    accent3 {
+      red: 0.34117648
+      green: 0.5372549
+      blue: 0.81960785
+      alpha {
+        value: 1.0
+      }
+    }
+    dark1 {
+      red: 0.10980392
+      green: 0.27058825
+      blue: 0.5294118
+      alpha {
+        value: 1.0
+      }
+    }
+    dark2 {
+      red: 0.10980392
+      green: 0.27058825
+      blue: 0.5294118
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+  }
+}
+section_component {
+  property_set {
+    key {
+      section_style: REGULAR
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_1
+    }
+    background_color {
+      red: 0.39215687
+      green: 0.92156863
+      blue: 0.87058824
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+  property_set {
+    key {
+      section_style: EMPHASIS_2
+    }
+    background_color {
+      red: 0.10980392
+      green: 0.27058825
+      blue: 0.5294118
+      alpha {
+        value: 1.0
+      }
+    }
+  }
+}
+site_component {
+  property_set {
+    primary_color {
+      red: 0.34117648
+      green: 0.5372549
+      blue: 0.81960785
+      alpha {
+        value: 1.0
+      }
+    }
+    header_background {
+      resource_id: "1b8P_wkSxgWlsDKELxAcCPsLd_cGH9yz3yNVZntzarouhOD5kXg"
+      image_rotation: 0
+      overlay_color_style: "DISABLED_LIGHT"
+      overlay_color_opacity: 0.5
+      anchor: "center center"
+    }
+    unsafe_favicon_image {
+      resource_id: "1c2cSedYjXtje1LZXmLH8kAEZjAEbINsgnhNJhfSGB_s0CIJPzw"
+      size: 1738
+    }
+    unsafe_logo_image {
+      resource_id: "18HZ1mVvJqlNhr0nM2RJHJpnXcS8Fna-dsPusFeDqwURfo7IK_g"
+    }
+  }
+}
+text_component {
+  heading_style {
+    heading: 0
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 12.0
+    }
+    text_style {
+      bold: false
+      font_size: 12.0
+      foreground {
+        scheme: 0
+      }
+      weighted_font_family: "Roboto"
+    }
+  }
+  heading_style {
+    heading: 1
+    paragraph_style {
+      ltr: true
+      spacing_before: 34.0
+    }
+    text_style {
+      bold: false
+      foreground {
+        scheme: 4
+      }
+      weighted_font_family: "Roboto"
+    }
+  }
+  heading_style {
+    heading: 2
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 18.0
+    }
+    text_style {
+      bold: true
+      font_size: 18.0
+      foreground {
+        scheme: 5
+      }
+      weighted_font_family: "Roboto"
+    }
+  }
+  heading_style {
+    heading: 3
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 14.0
+    }
+    text_style {
+      bold: true
+      font_size: 14.0
+      foreground {
+        scheme: 6
+      }
+      weighted_font_family: "Roboto"
+    }
+  }
+  heading_style {
+    heading: 102
+    paragraph_style {
+      line_spacing: 1.25
+      ltr: true
+      spacing_before: 8.0
+    }
+    text_style {
+      bold: false
+      font_size: 8.0
+      foreground {
+        scheme: 2
+      }
+      weighted_font_family: "Roboto;300"
+    }
+  }
+}
+name: "Portfolio"
+id: "72395d57c54c9d59_897"
+spacing_component {
+  property_set {
+    frame_selected: false
+  }
+}
+
+----------------------------------------------------
